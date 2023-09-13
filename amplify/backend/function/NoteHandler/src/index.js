@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
     console.log(event);
-    const title = event.pathParameters.title;
-    const note = {'title': title, 'content': "test content"};
+    const title = event.pathParameters.id;
+    const note = {'title': title, 'content': "test content " + title};
     const response = {
         statusCode: 200,
         body: JSON.stringify(note),

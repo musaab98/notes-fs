@@ -1,8 +1,8 @@
 {
   "version": 1,
   "paths": {
-    "/notes": {
-      "name": "/notes",
+    "/notes/{id}": {
+      "name": "/notes/{id}",
       "lambdaFunction": "NoteHandler",
       "permissions": {
         "setting": "open"

@@ -13,7 +13,13 @@
     },
     "categories": {
       "function": {
-        "NoteHandler": {}
+        "NoteHandler": {
+          "deploymentBucketName": "amplify-notesfs-dev-192351-deployment",
+          "s3Key": "amplify-builds/NoteHandler-505969502b3334466747-build.zip"
+        }
+      },
+      "api": {
+        "notes": {}
       }
     }
   }

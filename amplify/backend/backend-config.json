@@ -1,6 +1,6 @@
 {
   "api": {
-    "apinotes": {
+    "notes": {
       "dependsOn": [
         {
           "attributes": [
@@ -20,6 +20,24 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_NoteHandler_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "NoteHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_NoteHandler_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "NoteHandler"
+        }
+      ]
     }
   }
 }

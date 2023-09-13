@@ -1,22 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from "react";
+import { Component } from 'react';
+import { NoteContent } from './components/NoteContent';
+import { NoteList } from './components/NoteList';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NoteList />
+        <div className="asdjke"><NoteContent /></div>
       </header>
     </div>
   );

@@ -9,7 +9,9 @@
 
 body {
   background-color: #0e1117;
-  padding: 10vh;
+  padding: 5vh;
+  color: white;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-header {
@@ -17,19 +19,24 @@ body {
   flex-direction: row;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.header {
+  min-height: 1vh;
 }
 
 .btn {
   background: #0e1117;
+  border: 0px;
   border-bottom: 1px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 50%);
   padding: 0.25em 0.5em;
   margin: 10px;
-  border-radius: 0.25em;
+  font-size: calc(8px + 2vmin);
+  min-width: 25vh;
+  min-height: 10vh;
   cursor: pointer;
   outline: none;
-  font-size: calc(8px + 2vmin);
 }
 
 .btn:hover,
@@ -37,8 +44,22 @@ body {
   background: hsl(200, 100%, 50%, 0.2);
 }
 
-.asdjke {
+.options {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn.icon {
+  min-width: 0vh;
+  min-height: 0vh;
+  font-size: calc(4px + 2vmin);
+}
+
+.btn.selected {
+  border-bottom: 3px solid hsl(200, 100%, 50%);
+}
+
+.content {
   padding: 3vh;
-  padding-left: 5vh;
   text-align: left;
 }

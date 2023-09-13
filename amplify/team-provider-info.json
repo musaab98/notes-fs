@@ -10,6 +10,11 @@
       "StackName": "amplify-notesfs-dev-192351",
       "StackId": "arn:aws:cloudformation:us-east-1:552176595609:stack/amplify-notesfs-dev-192351/6f3dfcb0-51c3-11ee-be97-12d457cbab57",
       "AmplifyAppId": "dfbshli9as911"
+    },
+    "categories": {
+      "function": {
+        "NoteHandler": {}
+      }
     }
   }
 }
